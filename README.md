@@ -14,11 +14,9 @@ mvn jetty:run
 
 * Try reading back a resource from your server using the following URL:
 
-   http://localhost:8080/Bundle/1
+http://localhost:8080/hapi-fhirstarters-simple-server/Bundle/1
 
-
-   http://localhost:8080/Patient/1
-
+http://localhost:8080/hapi-fhirstarters-simple-server/Patient/1
 * Try reading back a resource that does not exist by using the following URL:
 
    http://localhost:8080/Patient/999

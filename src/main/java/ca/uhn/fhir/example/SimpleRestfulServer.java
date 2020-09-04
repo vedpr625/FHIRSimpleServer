@@ -16,7 +16,7 @@ public class SimpleRestfulServer extends RestfulServer {
 		setFhirContext(FhirContext.forR4());
 		
 		// Register resource providers
-		//registerProvider(new PatientResourceProvider());
+		 registerProvider(new PatientResourceProvider());
 		//registerProvider(new CompositionResourceProvider());
 		//registerProvider(new EncounterResourceProvider());
 		//registerProvider(new OrganizationResourceProvider());
